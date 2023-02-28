@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+hr{
+   background: #71809666;
+    height: 2px;
+}
+.hov:hover{
+cursor: pointer;
+}
+.flex_ContainerR{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.header{
+ height: 110px;
+ 
+}
+.nav{
+ justify-content: space-between;
+ margin: 74px 48px 0 58px;
+}
+.logo{
+    background: url(Book2Wheel_logo_trademark.png);
+    width: 189px;
+    height: 66px;
+}
+.searchBar{
+    min-width: 400px;
+    height: 75px;
+    width: auto;
+    border-radius: 32px ;
+    box-shadow: 2px 5px 12px #888888;
+  justify-content: space-between;
+  font-size: 12px;
+    line-height: 23px;
+    padding-left: 20px;
+    
+    color: #2D3748;
+
+   
+}
+.searchList{
+    margin-left: 32px;
+
+    font-size: 12px;
+    line-height: 23px;
+    
+    color: #2D3748;
+}
+.searchIcon{
+    background: url(search_small.png);
+    width: 50px;
+   height: 50px;
+   margin: 12px;
+}
+
+.menu_login{
+    max-width: 154px;
+    height: 74px;
+    width: auto;
+    margin-left: 35px;
+    border-radius: 32px ;
+    box-shadow: 2px 5px 12px #888888;
+  justify-content: space-between;
+
+}
+.menu{
+    background: url(menu.png);
+    width: 40px;
+    height: 40px;
+    margin-right: 33px;
+    margin-left: 20px;
+}
+.login{
+    background: url(Vector.png);
+    width: 40px;
+    height: 40px;
+    margin-left: 24px;
+}
+.currency{
+    background: url(currency.png);
+    width: 68px;
+height: 38px;
+}
+.sideMenu{
+    position: relative;
+    justify-content: space-between;
+    max-width: 272px;
+    height: 74px;
+    width: auto;
+}
+.subNav{
+    justify-content: space-around;
+    margin-top: 30px;
+   
+    font-weight:lighter;
+    font-size: 10px;
+  
+    
+    color: #718096;
+}
+.category{
+    position: relative;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    width: 80%;
+    overflow-x: scroll;
+}
+.category::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.rating{
+   align-content: end;
+    
+}
+.rating-itemF{
+    background: url(ratingF.png);
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.rating-itemE{
+    background: url(ratingE.png);
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.cup{
+    background: url(cup.png);
+}
+.booking{
+    background: url(flash.png);
+}
+.delivery{
+    background: url(Delivery.png);
+}
+.vehcle{
+    background: url(vhicle.png);
+}
+.transmission{
+    background: url(transmition.png);
+}
+.fule{
+    background: url(fule.png);
+}
+.arrow-box{
+    margin: 0 10px 20px 20px;
+   
+}
+.Rarrow{
+    background: url(rightArrow.png);
+    border: none;
+    height: 30px;
+    width: 18px;
+
+}
+.Larrow{
+    background: url(lArrow.png);
+    border: none;
+    height: 30px;
+    width: 18px;
+
+}
+.filtr{
+    background: url(fi.png);
+    width: 40px;
+    height: 40px;
+}
+.categIcons{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.categText{
+    font-weight: lighter;
+}
+.filter{
+    display: flex;
+    width: 92px;
+    height: 74px;
+   margin: 0 20px 20px 10px;
+    box-shadow: 2px 5px 12px #888888;
+    border-radius: 45% ;
+    justify-content: center;
+    align-items: center;  
+   
+}
+.mainBody{
+    position: relative;
+    left: 0;
+    right: 0;
+ 
+} 
+.map{
+    background: url(map.png);
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    width: 110px;
+    height: 40px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.card_item{
+width: auto;
+  
+}
+.likebtn{
+    position: absolute;
+    top: 16px;
+    right: 21px;
+    justify-self: end;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.heartF{
+    background: url(heartF.png);
+    margin: 20%;
+    width: 20px;
+    height: 16px;
+}
+.heartE{
+    background: url(heartE.png);
+    margin: 20%;
+    width: 20px;
+    height: 16px;
+}
+.catg{
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+     
+}
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.cardElmnt{
+ color: #005180;
+ max-width: 100%;
+ height: auto;
+ width: auto;
+}
+.price{
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+.dTime{
+    background-color:  #E2E8F0;
+    border-radius: 12px;
+    padding: 3px;
+    margin-right: 10px;
+    font-size: 12px; 
+    font-weight: lighter;
+}
